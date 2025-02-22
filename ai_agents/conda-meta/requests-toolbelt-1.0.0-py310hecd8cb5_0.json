@@ -1,0 +1,638 @@
+{
+  "build": "py310hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "requests >=2.0.1,<3.0.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/requests-toolbelt-1.0.0-py310hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/AUTHORS.rst",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/requests_toolbelt/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/__pycache__/_compat.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/__pycache__/sessions.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/__pycache__/streaming_iterator.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/_compat.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/fingerprint.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/host_header_ssl.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/socket_options.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/source.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/ssl.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/x509.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/fingerprint.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/host_header_ssl.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/socket_options.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/source.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/ssl.py",
+    "lib/python3.10/site-packages/requests_toolbelt/adapters/x509.py",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/_digest_auth_compat.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/guess.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/handler.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/http_proxy_digest.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/_digest_auth_compat.py",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/guess.py",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/handler.py",
+    "lib/python3.10/site-packages/requests_toolbelt/auth/http_proxy_digest.py",
+    "lib/python3.10/site-packages/requests_toolbelt/cookies/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/cookies/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/cookies/__pycache__/forgetful.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/cookies/forgetful.py",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/stream.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/tee.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/stream.py",
+    "lib/python3.10/site-packages/requests_toolbelt/downloadutils/tee.py",
+    "lib/python3.10/site-packages/requests_toolbelt/exceptions.py",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/decoder.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/encoder.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/decoder.py",
+    "lib/python3.10/site-packages/requests_toolbelt/multipart/encoder.py",
+    "lib/python3.10/site-packages/requests_toolbelt/sessions.py",
+    "lib/python3.10/site-packages/requests_toolbelt/streaming_iterator.py",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/pool.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/thread.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/pool.py",
+    "lib/python3.10/site-packages/requests_toolbelt/threaded/thread.py",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__init__.py",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/deprecated.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/dump.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/formdata.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/user_agent.cpython-310.pyc",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/deprecated.py",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/dump.py",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/formdata.py",
+    "lib/python3.10/site-packages/requests_toolbelt/utils/user_agent.py"
+  ],
+  "fn": "requests-toolbelt-1.0.0-py310hecd8cb5_0.conda",
+  "legacy_bz2_md5": "65be9beba927e00a6fa3a40b693078ac",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/requests-toolbelt-1.0.0-py310hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "861e394233ef461689601c989c0d7d0f",
+  "name": "requests-toolbelt",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/requests-toolbelt-1.0.0-py310hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "57df198f62c9098aac95c9b8ec1f0b8efc024080f61d5a0ed89ef4c5da3cf031",
+        "sha256_in_prefix": "57df198f62c9098aac95c9b8ec1f0b8efc024080f61d5a0ed89ef4c5da3cf031",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1f8cf8bdacd98ed6d36d0fec0c07f7765acebd6e81205962ab5146023b3c858d",
+        "sha256_in_prefix": "1f8cf8bdacd98ed6d36d0fec0c07f7765acebd6e81205962ab5146023b3c858d",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fa52f26237cc8d148d25c5746fdca499a56d0e765e69095cc3564a07cce23967",
+        "sha256_in_prefix": "fa52f26237cc8d148d25c5746fdca499a56d0e765e69095cc3564a07cce23967",
+        "size_in_bytes": 14638
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ea620f1af5cca24552647af0f1d9965aaa94d87381e1de0894e7e0163d39c2b0",
+        "sha256_in_prefix": "ea620f1af5cca24552647af0f1d9965aaa94d87381e1de0894e7e0163d39c2b0",
+        "size_in_bytes": 6117
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "sha256_in_prefix": "6dbd8eb7db1c7251ca30e2c310763a076b227163a0ba08c529a26c4fbbf0310a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c2c4416adc44b6a6e629724be5d837048501f6059b93ba859ad4c369b3f1759c",
+        "sha256_in_prefix": "c2c4416adc44b6a6e629724be5d837048501f6059b93ba859ad4c369b3f1759c",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f78777e211f01bcaa37835d89fd0a8de3b9c1bf37d0a43be57991643a0ab7bcc",
+        "sha256_in_prefix": "f78777e211f01bcaa37835d89fd0a8de3b9c1bf37d0a43be57991643a0ab7bcc",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6540e31ae34e8e8a187bb8f2d8fa1271358b22bd3bdcf7e6194b1cfca129f959",
+        "sha256_in_prefix": "6540e31ae34e8e8a187bb8f2d8fa1271358b22bd3bdcf7e6194b1cfca129f959",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebe693e7773738a14add74f09e3e4e12d5586a91970d6ac965a46d6f3fc31cd3",
+        "sha256_in_prefix": "ebe693e7773738a14add74f09e3e4e12d5586a91970d6ac965a46d6f3fc31cd3",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__pycache__/_compat.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "38cdd18c99e1bab2add18d44d206d7322160cd9ebb9fe36c3b1cbb94087a0410",
+        "sha256_in_prefix": "38cdd18c99e1bab2add18d44d206d7322160cd9ebb9fe36c3b1cbb94087a0410",
+        "size_in_bytes": 8768
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "25bc2900b83607a4edc7d1d5cfcc0516e51b973877d061e4dc7910ad94e473a0",
+        "sha256_in_prefix": "25bc2900b83607a4edc7d1d5cfcc0516e51b973877d061e4dc7910ad94e473a0",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__pycache__/sessions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "09a67de773e9cb750f4f339c09e92c5cf15187b8222e0baa8cfbd6f5d5fce0cb",
+        "sha256_in_prefix": "09a67de773e9cb750f4f339c09e92c5cf15187b8222e0baa8cfbd6f5d5fce0cb",
+        "size_in_bytes": 3559
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/__pycache__/streaming_iterator.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e43faa9186a65ae4ea61315274e6edcec8471e773e92211081d7ef7eb83f71fc",
+        "sha256_in_prefix": "e43faa9186a65ae4ea61315274e6edcec8471e773e92211081d7ef7eb83f71fc",
+        "size_in_bytes": 4113
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "2bbc4cb4eb21394583b461b68417eec3cf51d4176422f033ff1eb6082311bdd8",
+        "sha256_in_prefix": "2bbc4cb4eb21394583b461b68417eec3cf51d4176422f033ff1eb6082311bdd8",
+        "size_in_bytes": 9260
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "29110b4c3676d57d8834897b326c630d76b0e204d8f06e14b8ee665411376de9",
+        "sha256_in_prefix": "29110b4c3676d57d8834897b326c630d76b0e204d8f06e14b8ee665411376de9",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "40a5ef51b3014e58c2525b7c812ef69e02d3a3144ba5d6ce96c4879c6670c155",
+        "sha256_in_prefix": "40a5ef51b3014e58c2525b7c812ef69e02d3a3144ba5d6ce96c4879c6670c155",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/fingerprint.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f52b06a8761a1b5b989ce1d9539d4778d3f7d11ebf031619ae8d2e137126889",
+        "sha256_in_prefix": "7f52b06a8761a1b5b989ce1d9539d4778d3f7d11ebf031619ae8d2e137126889",
+        "size_in_bytes": 1791
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/host_header_ssl.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ddafe1d293fd15c5a07c61b9546905ab1c037784fef42fccc57a931e948a813",
+        "sha256_in_prefix": "7ddafe1d293fd15c5a07c61b9546905ab1c037784fef42fccc57a931e948a813",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/socket_options.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "29969ae1e0b882702a69a5b2c8a51000ac6885981bb52762bfdc71dbd4419980",
+        "sha256_in_prefix": "29969ae1e0b882702a69a5b2c8a51000ac6885981bb52762bfdc71dbd4419980",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/source.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "996910b4e717630d59f5a42f6b39c8be24e60bb02847ade6efe757be6b5f85cd",
+        "sha256_in_prefix": "996910b4e717630d59f5a42f6b39c8be24e60bb02847ade6efe757be6b5f85cd",
+        "size_in_bytes": 2888
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/ssl.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71f2681d5e20960fd77ebcd03746fda5b8e776241a17732b4a26f14f60639280",
+        "sha256_in_prefix": "71f2681d5e20960fd77ebcd03746fda5b8e776241a17732b4a26f14f60639280",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/__pycache__/x509.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "517de2077805d96877061252370d2a2f8b48a9c86cf261ffd83238be47464061",
+        "sha256_in_prefix": "517de2077805d96877061252370d2a2f8b48a9c86cf261ffd83238be47464061",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/fingerprint.py",
+        "path_type": "hardlink",
+        "sha256": "3512ffef964efa722f38e1bc288aa0cd72e82cde81ea579129f4fbf0fddc4101",
+        "sha256_in_prefix": "3512ffef964efa722f38e1bc288aa0cd72e82cde81ea579129f4fbf0fddc4101",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/host_header_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "e946d69ccdc3606e8f44e2cf8f3b82a373c4c3e0712d74d432d97af2c00e2259",
+        "sha256_in_prefix": "e946d69ccdc3606e8f44e2cf8f3b82a373c4c3e0712d74d432d97af2c00e2259",
+        "size_in_bytes": 1396
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/socket_options.py",
+        "path_type": "hardlink",
+        "sha256": "ae2e35a5156e1f59b2f51344b22ebe56e62547adb40f8b130daf5545ccedcdb3",
+        "sha256_in_prefix": "ae2e35a5156e1f59b2f51344b22ebe56e62547adb40f8b130daf5545ccedcdb3",
+        "size_in_bytes": 4789
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/source.py",
+        "path_type": "hardlink",
+        "sha256": "9f45810f8bce5199b6699a8a105ce6890a3cfeeb255c190da86db0b62e252838",
+        "sha256_in_prefix": "9f45810f8bce5199b6699a8a105ce6890a3cfeeb255c190da86db0b62e252838",
+        "size_in_bytes": 2608
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/ssl.py",
+        "path_type": "hardlink",
+        "sha256": "4068d5087c2a493cef3f9f0421839be3b09d2c1f4a3e0e409860cd43b6eec300",
+        "sha256_in_prefix": "4068d5087c2a493cef3f9f0421839be3b09d2c1f4a3e0e409860cd43b6eec300",
+        "size_in_bytes": 2399
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/adapters/x509.py",
+        "path_type": "hardlink",
+        "sha256": "a9a07e9268d1314bd06c2765117fa5a8b6592100bfeb991ec5354050259aaaa4",
+        "sha256_in_prefix": "a9a07e9268d1314bd06c2765117fa5a8b6592100bfeb991ec5354050259aaaa4",
+        "size_in_bytes": 7854
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fca5801af5789dfaf83ebaada79ac0c35ba44c13d40a6f6bb640bf7a99bdb45",
+        "sha256_in_prefix": "2fca5801af5789dfaf83ebaada79ac0c35ba44c13d40a6f6bb640bf7a99bdb45",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/_digest_auth_compat.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e456cdd1ce1838191738f3a12414f388c66eb93f945d326076602625ba1920c0",
+        "sha256_in_prefix": "e456cdd1ce1838191738f3a12414f388c66eb93f945d326076602625ba1920c0",
+        "size_in_bytes": 1378
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/guess.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "197e35284c22ddc75fb8c30990ebd1b51faf91f0fd7162019d6eeadc7c9e0ce1",
+        "sha256_in_prefix": "197e35284c22ddc75fb8c30990ebd1b51faf91f0fd7162019d6eeadc7c9e0ce1",
+        "size_in_bytes": 4235
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/handler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "758b80fefd7c314b6f04564ac33b319162fcc01d8566a78d468a3558c2107c17",
+        "sha256_in_prefix": "758b80fefd7c314b6f04564ac33b319162fcc01d8566a78d468a3558c2107c17",
+        "size_in_bytes": 5238
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/__pycache__/http_proxy_digest.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f31b700d311e6c2a49e3415704773091a405bff0d40a7d34f5a32a234c41510a",
+        "sha256_in_prefix": "f31b700d311e6c2a49e3415704773091a405bff0d40a7d34f5a32a234c41510a",
+        "size_in_bytes": 3220
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/_digest_auth_compat.py",
+        "path_type": "hardlink",
+        "sha256": "25aa6ed2ef0ac15dc815b462126cebc5547a33120d9e999b3d8784ab287fcdb3",
+        "sha256_in_prefix": "25aa6ed2ef0ac15dc815b462126cebc5547a33120d9e999b3d8784ab287fcdb3",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/guess.py",
+        "path_type": "hardlink",
+        "sha256": "412976da73c1c832a2b800af479bb1a556ed19c31bcbc4b00078f0b0f5bdb03d",
+        "sha256_in_prefix": "412976da73c1c832a2b800af479bb1a556ed19c31bcbc4b00078f0b0f5bdb03d",
+        "size_in_bytes": 4944
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/handler.py",
+        "path_type": "hardlink",
+        "sha256": "d82b7605881dc95571c93da63fb7b3ff8983a3c5d74b9d2ba949a7a01da8ff29",
+        "sha256_in_prefix": "d82b7605881dc95571c93da63fb7b3ff8983a3c5d74b9d2ba949a7a01da8ff29",
+        "size_in_bytes": 4407
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/auth/http_proxy_digest.py",
+        "path_type": "hardlink",
+        "sha256": "78dd79c3452910506b7f9e06f53212cfd33437b537812cdae0abd6d8627d9309",
+        "sha256_in_prefix": "78dd79c3452910506b7f9e06f53212cfd33437b537812cdae0abd6d8627d9309",
+        "size_in_bytes": 3706
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/cookies/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/cookies/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "93cb123b7da0bd678f67f21cc4c69dc085f03f76f078c613e13f4be22eafe940",
+        "sha256_in_prefix": "93cb123b7da0bd678f67f21cc4c69dc085f03f76f078c613e13f4be22eafe940",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/cookies/__pycache__/forgetful.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "020fe7fc2d265ae25114da1d1868e55c315e1414987e212afb19abb83a18af42",
+        "sha256_in_prefix": "020fe7fc2d265ae25114da1d1868e55c315e1414987e212afb19abb83a18af42",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/cookies/forgetful.py",
+        "path_type": "hardlink",
+        "sha256": "077fc007a972447246e16bef2a86d2e56fcc4cfdf5050e51acbb37b98571edcb",
+        "sha256_in_prefix": "077fc007a972447246e16bef2a86d2e56fcc4cfdf5050e51acbb37b98571edcb",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b905a293a2e831f3bd27256972c4d9e82e049cb1521951898f0014a2dd493d1f",
+        "sha256_in_prefix": "b905a293a2e831f3bd27256972c4d9e82e049cb1521951898f0014a2dd493d1f",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/stream.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b679c1a0449792952e3dbcc08523a648fecab618e1ed54f0b749a98f014bd5b",
+        "sha256_in_prefix": "6b679c1a0449792952e3dbcc08523a648fecab618e1ed54f0b749a98f014bd5b",
+        "size_in_bytes": 5537
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/__pycache__/tee.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d38311c88740bd28e139d5e9fc54d2450d2be22be6b449d30ddd5217fbb1e948",
+        "sha256_in_prefix": "d38311c88740bd28e139d5e9fc54d2450d2be22be6b449d30ddd5217fbb1e948",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/stream.py",
+        "path_type": "hardlink",
+        "sha256": "d58caa0f72b1988ab944aeda5e7b56125ed94eb83892cec195d8b2e0ae17d88d",
+        "sha256_in_prefix": "d58caa0f72b1988ab944aeda5e7b56125ed94eb83892cec195d8b2e0ae17d88d",
+        "size_in_bytes": 6024
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/downloadutils/tee.py",
+        "path_type": "hardlink",
+        "sha256": "a95f41c2af3739958383e956d18b0fe02773b2ed2073bf7b1824afeb0edd3cfc",
+        "sha256_in_prefix": "a95f41c2af3739958383e956d18b0fe02773b2ed2073bf7b1824afeb0edd3cfc",
+        "size_in_bytes": 4365
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "701c903c65d0e201289fe8198fd4df64f0e8b4a5f3dd89de2921459b66dd4cb9",
+        "sha256_in_prefix": "701c903c65d0e201289fe8198fd4df64f0e8b4a5f3dd89de2921459b66dd4cb9",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bca20315627e9b0ededdd836935797c7c3e6f1b34fba5dcf74d48520f3f931b3",
+        "sha256_in_prefix": "bca20315627e9b0ededdd836935797c7c3e6f1b34fba5dcf74d48520f3f931b3",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "83e4c96d22e72c48e8ac19982dcb1dbcee89738eaf6f4051d6214d565c2a2977",
+        "sha256_in_prefix": "83e4c96d22e72c48e8ac19982dcb1dbcee89738eaf6f4051d6214d565c2a2977",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/decoder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5602bdc986cf659762472f0b7c660119f86c9b1413556036cbe4d765a539c51",
+        "sha256_in_prefix": "f5602bdc986cf659762472f0b7c660119f86c9b1413556036cbe4d765a539c51",
+        "size_in_bytes": 5800
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/__pycache__/encoder.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd35b1c62ddd3dd34a546bc43303888567e14989b55d0c3647696221c2376457",
+        "sha256_in_prefix": "fd35b1c62ddd3dd34a546bc43303888567e14989b55d0c3647696221c2376457",
+        "size_in_bytes": 21189
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/decoder.py",
+        "path_type": "hardlink",
+        "sha256": "a796b8226c1d4c22d4d7e9c803ce86e975cc373a4c9b785b8344bcbed3034685",
+        "sha256_in_prefix": "a796b8226c1d4c22d4d7e9c803ce86e975cc373a4c9b785b8344bcbed3034685",
+        "size_in_bytes": 4861
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/multipart/encoder.py",
+        "path_type": "hardlink",
+        "sha256": "744d8599c38d54406f53ecb2341afc9b4c2354852e4018861c22fcaba2154bc6",
+        "sha256_in_prefix": "744d8599c38d54406f53ecb2341afc9b4c2354852e4018861c22fcaba2154bc6",
+        "size_in_bytes": 20769
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/sessions.py",
+        "path_type": "hardlink",
+        "sha256": "41cc4dbc508a41948fe255610b4813b72f726ba6020456c24260a224ee53e669",
+        "sha256_in_prefix": "41cc4dbc508a41948fe255610b4813b72f726ba6020456c24260a224ee53e669",
+        "size_in_bytes": 3102
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/streaming_iterator.py",
+        "path_type": "hardlink",
+        "sha256": "4680698853bdf7a8b127b5c175e4c40dcbddb7680ef1489f4591cbc9d454950d",
+        "sha256_in_prefix": "4680698853bdf7a8b127b5c175e4c40dcbddb7680ef1489f4591cbc9d454950d",
+        "size_in_bytes": 4044
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "654c348743e42d7cfd1f4aac3ca8120f4fe45fc4a92c7f328dbdd1bc85a4b8e8",
+        "sha256_in_prefix": "654c348743e42d7cfd1f4aac3ca8120f4fe45fc4a92c7f328dbdd1bc85a4b8e8",
+        "size_in_bytes": 3213
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc0560c8396c56cbbaa7d2f31ff8e53dc912e08936a825d9aead4a065cb94037",
+        "sha256_in_prefix": "fc0560c8396c56cbbaa7d2f31ff8e53dc912e08936a825d9aead4a065cb94037",
+        "size_in_bytes": 3427
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/pool.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "07e7ada46c73676178b28a1b04aa4364859a6af6e53d381ec66d082676b931d6",
+        "sha256_in_prefix": "07e7ada46c73676178b28a1b04aa4364859a6af6e53d381ec66d082676b931d6",
+        "size_in_bytes": 6790
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/__pycache__/thread.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8a75c5aae58a8842fe19dcc16b8f8d86ba4c4ee03becd1145d4ef0739f8c78e",
+        "sha256_in_prefix": "f8a75c5aae58a8842fe19dcc16b8f8d86ba4c4ee03becd1145d4ef0739f8c78e",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/pool.py",
+        "path_type": "hardlink",
+        "sha256": "f3148b236ff11256ad4f4f630d50ee6b7ebddd65e49babd614f4011e12ece3c6",
+        "sha256_in_prefix": "f3148b236ff11256ad4f4f630d50ee6b7ebddd65e49babd614f4011e12ece3c6",
+        "size_in_bytes": 6628
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/threaded/thread.py",
+        "path_type": "hardlink",
+        "sha256": "d7a52659a2bf95980370a901912d63fbafcadf3288a24df5e20ec5a65963d898",
+        "sha256_in_prefix": "d7a52659a2bf95980370a901912d63fbafcadf3288a24df5e20ec5a65963d898",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "acef159c02038c9cc4a9d14a963fec230295d0774cc15266a823363e7a3f8e18",
+        "sha256_in_prefix": "acef159c02038c9cc4a9d14a963fec230295d0774cc15266a823363e7a3f8e18",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/deprecated.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e226f65d22fc1c29da8988620591e539a030c1d1660bce34fa9c98bb98cc6efb",
+        "sha256_in_prefix": "e226f65d22fc1c29da8988620591e539a030c1d1660bce34fa9c98bb98cc6efb",
+        "size_in_bytes": 2556
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/dump.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7cc770e9fafbae72bec6494d02db8d55105d10328273fa0e6bd9d93bbd34bb9",
+        "sha256_in_prefix": "e7cc770e9fafbae72bec6494d02db8d55105d10328273fa0e6bd9d93bbd34bb9",
+        "size_in_bytes": 5610
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/formdata.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c4059fe18122c3d380340a340ff7199365da6f966c2919452e7826490b5f856",
+        "sha256_in_prefix": "5c4059fe18122c3d380340a340ff7199365da6f966c2919452e7826490b5f856",
+        "size_in_bytes": 3671
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/__pycache__/user_agent.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9af75cecd1ec0893db4ebb4226b7b005d90cdf3e6822020307d5ebeb7016c4c5",
+        "sha256_in_prefix": "9af75cecd1ec0893db4ebb4226b7b005d90cdf3e6822020307d5ebeb7016c4c5",
+        "size_in_bytes": 4910
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "2844568a850d4eec130911493b25bfcc92a26f6d3e88d11313cefdce701c9c95",
+        "sha256_in_prefix": "2844568a850d4eec130911493b25bfcc92a26f6d3e88d11313cefdce701c9c95",
+        "size_in_bytes": 2558
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/dump.py",
+        "path_type": "hardlink",
+        "sha256": "9371d5f3681a71d44b8efd74127eb496bde870eff6c71b49ebf24eea681913cb",
+        "sha256_in_prefix": "9371d5f3681a71d44b8efd74127eb496bde870eff6c71b49ebf24eea681913cb",
+        "size_in_bytes": 6522
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/formdata.py",
+        "path_type": "hardlink",
+        "sha256": "a69aa921d916e95d0237278588a032b435341fd835c972f3654d104ee5ab8dbd",
+        "sha256_in_prefix": "a69aa921d916e95d0237278588a032b435341fd835c972f3654d104ee5ab8dbd",
+        "size_in_bytes": 3233
+      },
+      {
+        "_path": "lib/python3.10/site-packages/requests_toolbelt/utils/user_agent.py",
+        "path_type": "hardlink",
+        "sha256": "8b278469da0e4ec58c00d461d97ce10e7c275325fc2ba053f726407d54e2c21d",
+        "sha256_in_prefix": "8b278469da0e4ec58c00d461d97ce10e7c275325fc2ba053f726407d54e2c21d",
+        "size_in_bytes": 4524
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ff502500e4313db7f4a01f657a8fe6d1ba4fdb7aa544411c1c871d3147a0a006",
+  "size": 75731,
+  "subdir": "osx-64",
+  "timestamp": 1690874091491,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/requests-toolbelt-1.0.0-py310hecd8cb5_0.conda",
+  "version": "1.0.0"
+}
