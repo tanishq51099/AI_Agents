@@ -1,0 +1,10 @@
+prefix=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.5.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

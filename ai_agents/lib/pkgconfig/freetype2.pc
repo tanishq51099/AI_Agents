@@ -1,0 +1,14 @@
+prefix=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents
+exec_prefix=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents
+libdir=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/lib
+includedir=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/lib -lfreetype
+Libs.private: -lz -L/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

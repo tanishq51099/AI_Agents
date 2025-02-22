@@ -1,0 +1,5 @@
+#!/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

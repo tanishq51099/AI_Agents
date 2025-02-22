@@ -1,0 +1,11 @@
+prefix=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/tanishqtanmay/Desktop/Git_Repos/AI_agents/AI_Agents/ai_agents/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
